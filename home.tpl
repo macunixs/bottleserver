@@ -7,18 +7,9 @@
 </head>
 <body>
 
-<h1>Door Lock using Bottle Python</h1>
-
-<form method="POST" action="unlock">
-	<p>Enter Password</p>
-	<input type="password" name="password" length="20"/>
-	<input id ="sub" type="submit" value="OK"/>
-</form>
-
 <form method="POST" action="rgbon">
 	<p>RGBLED Switch</p>
 	<button>ON LED</button>
-	<a href="/">Back</a>
 </form>
 <form method="POST" action="rgboff">
 	<p>RGBLED Switch</p>
