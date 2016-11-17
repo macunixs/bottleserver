@@ -6,7 +6,7 @@ import time
 PASSWORD = 'raspberry'
 MAX_ATTEMPTS = 5  # before you are locked out
 OPEN_TIME = 5     # number of seconds for lck to stay open
-IP_ADDRESS = '192.168.0.10' # of your Pi
+IP_ADDRESS = '192.168.0.12' # of your Pi
 
 # Configure the GPIO pin
 GPIO.setmode(GPIO.BCM)
